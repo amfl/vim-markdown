@@ -54,7 +54,19 @@ tar --strip=1 -zxf vim-markdown-master.tar.gz
 
 ## Options
 
-### Disable Folding
+### Folding
+
+The following options control folding behavior.
+
+#### Define Folds On Headings
+
+Create folds on headings instead of around their content:
+
+```vim
+let g:vim_markdown_fold_on_headings=1
+```
+
+#### Disabling
 
 Add the following line to your `.vimrc` to disable the folding configuration:
 
